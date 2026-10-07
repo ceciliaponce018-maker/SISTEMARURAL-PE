@@ -64,4 +64,4 @@ public class Gestor {
 
     public void addObs(IObservador o) { obs.add(o); }
     private void notificar(String m) { obs.forEach(o -> o.onCambio(m)); }
-}
+}// Optimizacion de Streams de Orden Superior para DIRESA 
