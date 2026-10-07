@@ -1,0 +1,41 @@
+========================================================================
+SISTEMARURAL-PE - DATOS DE PRUEBA (100% FICTICIOS)
+========================================================================
+ADVERTENCIA: Estos datos son completamente ficticios y se utilizan
+exclusivamente para fines académicos y de prueba del sistema.
+No corresponden a personas reales. Cumple con la Ley N.º 29733.
+========================================================================
+
+PACIENTE 1: Para prueba de "Registro válido" y "Búsqueda encontrada"
+------------------------------------------------------------------------
+Nombre completo: Juan Pérez García
+DNI: 12345678
+Fecha de Nacimiento: 15/03/1985
+Dirección: Av. Principal 123, Santiago de Chuco
+Teléfono: 987654321
+
+PACIENTE 2: Para prueba de "Teléfono opcional" y "Búsqueda por nombre"
+------------------------------------------------------------------------
+Nombre completo: María López Sánchez
+DNI: 87654321
+Fecha de Nacimiento: 22/07/1990
+Dirección: Jr. Los Pinos 456, Santiago de Chuco
+Teléfono: No registrado
+
+PACIENTE 3: Para prueba de "Creación de cita" y "Exportación CSV"
+------------------------------------------------------------------------
+Nombre completo: Carlos Ruiz Mendoza
+DNI: 45678912
+Fecha de Nacimiento: 10/11/1978
+Dirección: Calle Central 789, Santiago de Chuco
+Teléfono: 912345678
+
+========================================================================
+CASOS DE PRUEBA SUGERIDOS CON ESTOS DATOS:
+1. Intentar registrar a "Juan Pérez" con DNI 12345678 (Debe ser exitoso).
+2. Intentar registrar de nuevo el DNI 12345678 (Debe mostrar error de duplicado).
+3. Intentar registrar un DNI con 7 dígitos (Debe mostrar error de validación).
+4. Buscar "María" o "87654321" (Debe encontrar al paciente y mostrar DNI ofuscado: ****4321).
+5. Buscar "Ana" o "99999999" (Debe mostrar "No encontrado").
+6. Crear una cita para Carlos Ruiz y luego exportar el CSV para verificar el formato.
+========================================================================
