@@ -1,0 +1,17 @@
+# Archivos compilados de Java
+out/
+*.class
+
+# Archivos de librerías (JARs pesados)
+lib/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de reporte generados
+reporte_sistemarural.csv
+
+# Configuración de VS Code
+.vscode/
